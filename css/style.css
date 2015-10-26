@@ -1,0 +1,130 @@
+.container_listbox
+{
+
+width:632px;
+height:253px;
+background-color: #f1f1f1;
+border: 1px solid #dcdcdc;
+border-radius: 4px 4px 4px 4px;
+padding: 5px;
+
+}
+.container_listbox div.select_1
+{
+float:left;
+width:252px;
+height:242px;
+margin-top:0px;
+margin-left:0px;
+
+border:1px solid #dcdcdc;
+}
+.container_listbox div.select_1 select
+{
+float:left;
+width:250px;
+height:240px;
+margin-top:0px;
+margin-left:0px;
+font-size:15px;
+cursor:pointer;
+border:none;
+}
+.container_listbox div.select_2
+{
+float:right;
+width:252px;
+height:242px;
+margin-top:0px;
+margin-right:0px;
+border:1px solid #dcdcdc;
+}
+.container_listbox div.select_2 select
+{
+float:left;
+width:250px;
+height:240px;
+margin-top:0px;
+margin-left:0px;
+font-size:15px;
+cursor:pointer;
+border:none;
+}
+.container_listbox div.operadores
+{
+float:left;
+width:98px;
+height:240px;
+margin-top:0px;
+margin-left:8px;
+
+}
+.container_listbox div.operadores div.add_all
+{
+float:left;
+width:55px;
+height:50px;
+margin-top:8px;
+margin-left:22px;
+cursor:pointer;
+background-image:url(../img/right_all.png);
+background-repeat: no-repeat;
+background-position: center center;
+background-color:#E2E2E2;
+background-size:60%;
+border:1px solid #C9C9C9;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+
+}
+.container_listbox div.operadores div.remove_all
+{
+float:left;
+width:55px;
+height:50px;
+margin-top:8px;
+margin-left:22px;
+cursor:pointer;
+background-image:url(../img/left_all.png);
+background-repeat: no-repeat;
+background-position: center center;
+background-color:#E2E2E2;
+background-size:60%;
+border:1px solid #C9C9C9;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+}
+.container_listbox div.operadores div.add
+{
+float:left;
+width:55px;
+height:50px;
+margin-top:8px;
+margin-left:22px;
+cursor:pointer;
+background-image:url(../img/right.png);
+background-repeat: no-repeat;
+background-position: center center;
+background-color:#E2E2E2;
+background-size:60%;
+border:1px solid #C9C9C9;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+}
+.container_listbox div.operadores div.remove
+{
+float:left;
+width:55px;
+height:50px;
+margin-top:8px;
+margin-left:22px;
+cursor:pointer;
+background-image:url(../img/left.png);
+background-repeat: no-repeat;
+background-position: center center;
+background-color:#E2E2E2;
+background-size:60%;
+border:1px solid #C9C9C9;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+}

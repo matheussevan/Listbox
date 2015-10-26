@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="js/listbox.js"></script>
+	<!-- <script type="text/javascript" src="js/listbox.js"></script> -->
+</head>
+<body>
+<div class="container_listbox">
+
+	<div class="select_1">
+		<select id="select1" name="select1[]" multiple="multiple" >
+			<option value="0">Option a</option>
+			<option value="1">Option b</option>
+			<option value="2">Option c</option>
+			<option value="3">Option d</option>
+			<option value="4">Option e</option>
+			<option value="5">Option f</option>
+			<option value="6">Option g</option>
+			<option value="7">Option h</option>
+			<option value="8">Option i</option>
+			<option value="9">Option j</option>
+			<option value="10">Option k</option>
+			<option value="11">Option l</option>
+		</select>
+	</div>
+
+	<div class="operadores">
+		<div class="add_all" onclick="add_all('select1','select2',false,'values_selecteds_listbox');"></div>
+		<div class="add" onclick="add('select1','select2',false,'values_selecteds_listbox');"></div>
+		<div class="remove" onclick="add('select2','select1',true,'values_selecteds_listbox');"></div>
+		<div class="remove_all" onclick="add_all('select2','select1',true,'values_selecteds_listbox');"></div>
+	</div>
+
+	<div class="select_2">
+		<select id="select2" name="select2[]" multiple="multiple" ></select>
+	</div>
+
+</div>
+<input type="text" id="values_selecteds_listbox" name="values_selecteds_listbox" size="40"/>
+</body>
+</html>
